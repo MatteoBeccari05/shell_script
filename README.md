@@ -18,20 +18,6 @@ Benvenuto/a! Questa repository raccoglie vari script **Shell/Bash** creati per a
 
 ---
 
-## 📂 Contenuto
-
-Ecco una panoramica degli script presenti nella repository:
-
-| Script | Descrizione | Utilizzo |
-| :--- | :--- | :--- |
-| `script_example.sh` | 🛠️ *Esempio di script per il backup dei dati.* | `./script_example.sh` |
-| `clean_system.sh` | 🧹 *Pulisce file temporanei e cache del sistema.* | `./clean_system.sh` |
-| `quick_setup.sh` | 🚀 *Configurazione rapida dell'ambiente di lavoro.* | `./quick_setup.sh` |
-
-> 💡 *Nota: Aggiungi o modifica i nomi degli script nella tabella in base al contenuto reale della tua repo.*
-
----
-
 ## 🚀 Come Utilizzare gli Script
 
 1. **Clona la repository:**
