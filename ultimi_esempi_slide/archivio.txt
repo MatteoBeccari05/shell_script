@@ -1,0 +1,3 @@
+=== file1.txt ===
+Ciao! Questo è il primo file di prova.
+Contiene un messaggio su due righe.
