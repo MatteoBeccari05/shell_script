@@ -1,0 +1,16 @@
+
+# 1. Crea le cartelle sorgente, sottocartella e destinazione
+mkdir -p /tmp/sorgente/sottocartella
+mkdir -p /tmp/destinazione
+
+# 2. Crea file di test con estensione .txt e un file con altra estensione .c
+touch /tmp/sorgente/file1.txt
+touch /tmp/sorgente/file2.c
+touch /tmp/sorgente/sottocartella/file3.txt
+
+# 3. Crea un file già esistente in destinazione (per testare che NON venga sovrascritto)
+touch /tmp/destinazione/file1.txt
+
+# 4. Esecuzione dello Script
+Lancia lo script `es4.sh` passando i 3 parametri richiesti dall'esercizio (estensione `.txt`, percorso assoluto sorgente e percorso assoluto destinazione):
+./es4.sh .txt /tmp/sorgente /tmp/destinazione
