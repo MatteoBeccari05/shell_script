@@ -1,0 +1,22 @@
+### Caso 1: Sei GIÀ dentro la cartella `es_3`
+
+Se l'output di `pwd` è `/home/matteo/Scrivania/shell_script/laboratorio_3/es_3`, 
+per indicare la cartella corrente usa il punto **`.`** (che è a tutti gli effetti un 
+percorso relativo):
+
+./cancella_versioni_preliminari.sh .
+
+
+### Caso 2: Sei nella cartella `laboratorio_3`
+
+Se l'output di `pwd` è `/home/matteo/Scrivania/shell_script/laboratorio_3`, 
+allora la cartella `es_3` deve esistere al suo interno. Assicurati che il nome sia 
+scritto esattamente nello stesso modo (attenzione a maiuscole/minuscole).
+
+
+### Caso 3: Vuoi testare una sottocartella specifica di `es_3`
+
+Se dentro `es_3` hai creato una cartella contenente i file di testo da analizzare 
+(ad esempio `articoli`), esegui:
+
+./cancella_versioni_preliminari.sh articoli
