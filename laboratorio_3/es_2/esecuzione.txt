@@ -1,0 +1,6 @@
+./cercaFile.sh "ERROR" /home/utente/progetto 2
+
+In questo esempio, lo script cercherà nella cartella /home/utente/progetto 
+(e in tutte le sue sottodirectory) tutti i file .txt in cui la parola "ERROR" 
+compare in almeno 2 righe, e stamperà a schermo il nome della directory che 
+ne contiene il numero maggiore.
