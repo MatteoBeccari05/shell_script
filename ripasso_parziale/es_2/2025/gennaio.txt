@@ -1,0 +1,3 @@
+REC0001 20250110 Cardiologia 101 Mario Rossi
+REC0002 20250112 Pediatria 202 Luca Bianchi
+REC0003 20250115 Cardiologia 103 Anna Verdi
